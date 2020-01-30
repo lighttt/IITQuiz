@@ -129,4 +129,8 @@ class QuestionBrain {
   void reset() {
     _questionNumber = 0;
   }
+
+  int getTotalQuestions() {
+    return _questions.length;
+  }
 }
